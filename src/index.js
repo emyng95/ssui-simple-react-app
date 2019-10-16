@@ -1,16 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.css";
 import "./index.css";
+
 import App from "./App";
-import * as serviceWorker from "./serviceWorker";
+
+import * as serviceWorker from "./serviceWorker"; //progressive or offline webapp
 
 const app = (
   <Router>
     <ScrollToTop>
-      <App />
+      <App/>
     </ScrollToTop>
   </Router>
 );
