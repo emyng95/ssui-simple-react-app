@@ -1,0 +1,101 @@
+.HalfPageLeft{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+    z-index: 150;
+    display: inline-block;
+}
+
+.HalfPageRight{
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    height: 100vh;
+    z-index: 10;
+    display: inline-block;
+}
+
+
+.HalfPageLeft img#taipei101 {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0 0;
+    z-index: 100;
+    display: inline-block;
+}
+
+.LocationContent {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-top: 7em;
+}
+
+
+.LocationName{
+    color:rgb(255, 140, 180);
+
+    font-family: 'Kalam', cursive;
+    font-style:italic;
+}
+
+
+.Description{
+    padding-top:0.5em ;
+    color: rgba(0, 0, 0, 0.658);
+    line-height: 1.8;
+    font-size: 0.9em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Circle{
+    box-sizing: content-box;
+    width:32px;
+    height:32px;
+    background-color:#FFFDEC;
+    border-radius: 50%;
+    margin: 0 1.2em;
+    box-shadow: 0px 0px 5px 5px rgb(238, 183, 202);
+    z-index: 150;
+}
+
+.Fact{
+    color:#fff;
+    font-family: 'Kalam', cursive;
+    font-style:italic;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 0px 20px 16px rgba(0, 0, 0, 0.192);
+    max-width: 60%;
+}
+
+.FunFact{
+    position:absolute;
+    display: flex;
+    align-items: center;
+}
+
+#fact1{
+    top: 20vh;
+    left:1vw;
+    text-align: right;
+}
+
+#fact2{
+    top: 40vh;
+    left:29vw;
+}
+
+#fact3{
+    top: 60vh;
+    left:1vw;
+    text-align: right;
+}

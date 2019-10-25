@@ -1,5 +1,6 @@
 export default {
   home: "/",
-  characters: "/characters",
-  character: "/characters/:id"
+  aboutme: "/aboutme",
+  location:"/location",
+  locations: "/location/:id",
 };

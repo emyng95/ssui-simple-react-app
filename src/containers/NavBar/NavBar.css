@@ -1,11 +1,57 @@
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+}
+
 .navbar-brand {
   height: 40px;
 }
 
-.navbar-brand img {
-  height: 100%;
-}
 
 .nav-item {
-  font-family: StarWars;
+  font-family: 'Raleway', sans-serif;
+  margin-right:1rem;
 }
+
+
+.navbar-light .navbar-nav .nav-link{
+  /*color: rgba(240, 126, 145, 0.712);*/
+  color:rgb(78, 78, 78);
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: rgb(255, 140, 180);
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+
+/* Add font to react app
+http://skyentific.me/adding-fonts-to-create-react-app/ this is local bundle
+https://scotch.io/@micwanyoike/how-to-add-fonts-to-a-react-project explains google font
+*/
+
+@media (max-width: 767px) {
+  .navbar{
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 1440px){
+  .container {
+    max-width: 1280px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+  }
+}
+
+

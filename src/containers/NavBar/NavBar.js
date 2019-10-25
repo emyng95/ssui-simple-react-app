@@ -1,17 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import appRoutes from "../../shared/appRoutes";
-import Logo from "../../assets/imgs/star-wars-logo.png";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          <NavLink className="navbar-brand" to={appRoutes.home}>
-            <img src={Logo} alt="logo" />
-          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -32,8 +28,8 @@ const NavBar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to={appRoutes.characters}>
-                  Characters
+                <NavLink className="nav-link" to={appRoutes.aboutme}>
+                  About Me
                 </NavLink>
               </li>
             </ul>

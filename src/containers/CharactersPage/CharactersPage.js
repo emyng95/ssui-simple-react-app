@@ -6,7 +6,6 @@ import CharList from "./characterList";
 
 import "./CharactersPage.css";
 
-// https://www.timeout.com/london/film/star-wars-characters-list
 class CharactersPage extends Component {
   state = {
     chars: CharList

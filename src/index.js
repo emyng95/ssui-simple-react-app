@@ -1,6 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
+import React from "react"; //must have
+import ReactDOM from "react-dom"; //must have
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import "bootstrap/dist/css/bootstrap.css";
