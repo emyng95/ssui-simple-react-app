@@ -16,16 +16,16 @@ const LocationPage = () => {
             <img id="taipei101" src={photo} alt={name} />
             </div>
         <div className="col-lg-6 col-md-6 col-sm-6 FunFact" id="fact1">
-            <div class="Fact">{fact1}</div>  
-            <div class="Circle"></div>
+            <div className="Fact">{fact1}</div>  
+            <div className="Circle"></div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 FunFact" id="fact2">
-            <div class="Circle"></div>
-            <div class="Fact">{fact2}</div>  
+            <div className="Circle"></div>
+            <div className="Fact">{fact2}</div>  
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6 FunFact" id="fact3">
-            <div class="Fact">{fact3}</div>  
-            <div class="Circle"></div>
+            <div className="Fact">{fact3}</div>  
+            <div className="Circle"></div>
         </div>
 
         </div>

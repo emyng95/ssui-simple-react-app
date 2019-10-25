@@ -52,11 +52,11 @@ class MapCursors extends Component {
     return (
       <div className="map-container">
           {this.state.mapcursor.map((mapcursor, idx) => {
-              console.log(mapcursor);
+              console.log(mapcursor); // mapcursors.map(one of location) // map is a way  of for loop thru array.
               console.log(idx);
             return (
               <Link
-                key={idx}
+                key={idx} //required attribute from warning
                 to={`${appRoutes.location}/${mapcursor.id}`}
                 // className=""
                 id={`link-${mapcursor.id}`}
