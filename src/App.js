@@ -3,7 +3,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import appRoutes from "./shared/appRoutes";
 
 import NavBar from "./containers/NavBar/NavBar";
-import Footer from "./containers/Footer/Footer";
 import HomePage from "./containers/HomePage/HomePage";
 import LocationPage from "./containers/LocationPage/LocationPage";
 import "./App.css";

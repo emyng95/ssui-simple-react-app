@@ -91,9 +91,8 @@ export default [
     name: "Kenting Beach",
     photo: kenting,
     experience: [
-        "Growing up, I remember learning that Taipei 101 was the tallest building in the world, though this, of course, changed with the construction of Burj Khalifa in 2010.",
-        "I remember the construction started when I was little and was built by 2004. The first time I visited the building was with my dad on his now retired scooter. I remember looking up at the tower as my dad drove up close to the building. A sense of overwhelming feeling immediately took over. From a distance, it was hard to grasp how tall the building was until I was right below it.  It towered over the cityscape like nothing I had ever seen.",
-        "The view from the observation deck is even more stunning. The sky that night happened to be super clear and it was breathtaking looking out the deck. I spent a great time with my dad and my brother observing the changes that were taking place in the city over that night. I definitely recommend that you visit Taipei 101 when you are in Taiwan!"
+        "Kenting has become the most representative place for tropical beach in Taiwan. Located in the most southern part of Taiwan, Kenting is all beach and ocean. Not only having the first National Park in Taiwan, Kenting offers so many attractions, the role Kenting play in Taiwan tourism is significant. Along the coastline, as a part of Nanwan, Kenting Beach is the most beautiful beach in Taiwan. Right across from the Kenting National Park, facing the ocean and sitting in the front of Dajianshan, Kenting Beach was the first place developed back in 1877.",
+        "Although the White Sand Bay is a famous beach, it is not easily accessible so not many tourists know how to get there. Swimming, snorkeling and scuba diving are allowed at this beach, but you need to watch out for jellyfish. If you prefer staying dry, you can take a leisure stroll along the beach. Or, if you’re feeling lazy, just rent a huge umbrella and a beach chair, and enjoy the view of the ocean. There are shower facilities and changing cabins on one side of the beach, and a campsite with a bar and a few small fast food restaurants on another side.",
     ],
     fact1: [
       "The tower is the tallest and largest green building in the world."
