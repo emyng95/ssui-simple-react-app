@@ -8,6 +8,63 @@
     width: 36px; /*useless here*/
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+/* why is it so difficult to change css 
+
+--> adding an class dynamically to a div 
+
+--> updating 
+
+*/
+
+
+
+#taipei-101:hover,#kenting:hover,#taroko-gorge:hover,#sun-moon-lake:hover,#jiufen:hover,#ali-mountain:hover{
+    animation-name: bounce;
+    transform-origin: center bottom;
+    animation-duration:2s ;
+}
+
+#title-taipei-101:hover,#title-kenting:hover,#title-taroko-gorge:hover,#title-sun-moon-lake:hover,#title-jiufen:hover,#title-ali-mountain:hover{
+    text-shadow: 0px 0px 15px rgb(255, 140, 180)
+}
+
+@keyframes bounce {
+    from,
+    10%,
+    53%,
+    80%,
+    to {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -30px, 0);
+      transform: translate3d(0, -30px, 0);
+    }
+  
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+  
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+}
+
 .HalfScreen{
     position: absolute;
     left: 50%;
@@ -44,8 +101,8 @@
 
 #link-kenting{
     position: relative;
-    top: 84vh;
-    left: -15vw;
+    top: 74.2vh;
+    left: -17.5vw;
 }
 
 #link-taroko-gorge{

@@ -13,47 +13,52 @@ class MapCursors extends Component {
       {
         id:"taipei-101",
         title:"Taipei 101",
-        clicked:false,
+        hover:false,
       },
       {
         id:"jiufen",
         title:"Jiufen",
-        clicked:false,
+        hover:false,
       },
       {
         id:"sun-moon-lake",
         title:"Sun Moon Lake",
-        clicked:false,
+        hover:false,
       },
       {
         id:"ali-mountain",
         title:"Ali Mountain",
-        clicked:false,
+        hover:false,
       },
       {
         id:"kenting",
         title:"Kenting",
-        clicked:false,
+        hover:false,
       },
       {
         id:"taroko-gorge",
         title:"Taroko Gorge",
-        clicked:false,
+        hover:false,
       }
+
+      
 
 
     ]
   };
 
+ 
+
   render() {
     // let { chars } = this.state;
     // chars = sortBy(chars, ["rank"]);
 
+    
+    
+
     return (
       <div className="map-container">
           {this.state.mapcursor.map((mapcursor, idx) => {
-              console.log(mapcursor); // mapcursors.map(one of location) // map is a way  of for loop thru array.
-              console.log(idx);
             return (
               <Link
                 key={idx} //required attribute from warning
@@ -61,7 +66,7 @@ class MapCursors extends Component {
                 // className=""
                 id={`link-${mapcursor.id}`}
               >
-                <p>{mapcursor.title}</p>
+                <p id={`title-${mapcursor.id}`}>{mapcursor.title}</p>
                 <img className="mapcursor" id={mapcursor.id} src={cursor} alt={mapcursor.title} /> 
               </Link>
             );

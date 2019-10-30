@@ -13,7 +13,7 @@ const LocationPage = () => {
       <div className="HalfPageLeft">
         <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12">
-            <img id="taipei101" src={photo} alt={name} />
+            <img id={`bg-${id}`} src={photo} alt={name} />
             </div>
         <div className="col-lg-6 col-md-6 col-sm-6 FunFact" id="fact1">
             <div className="Fact">{fact1}</div>  

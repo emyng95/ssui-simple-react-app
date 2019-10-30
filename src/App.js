@@ -5,9 +5,9 @@ import appRoutes from "./shared/appRoutes";
 import NavBar from "./containers/NavBar/NavBar";
 import Footer from "./containers/Footer/Footer";
 import HomePage from "./containers/HomePage/HomePage";
-import CharactersPage from "./containers/CharactersPage/CharactersPage";
 import LocationPage from "./containers/LocationPage/LocationPage";
 import "./App.css";
+import AboutMe from "./containers/AboutMePage/AboutMe";
 
 const app = () => {
   return (
@@ -19,7 +19,7 @@ const app = () => {
             <HomePage />
           </Route>
           <Route exact path={appRoutes.aboutme}>
-            <CharactersPage />
+            <AboutMe />
           </Route>
           <Route exact path={appRoutes.locations}>
             <LocationPage />

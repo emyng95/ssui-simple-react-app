@@ -17,13 +17,16 @@
 }
 
 
-.HalfPageLeft img#taipei101 {
+.HalfPageLeft img#bg-taipei-101, .HalfPageLeft img#bg-jiufen, .HalfPageLeft img#bg-sun-moon-lake,.HalfPageLeft img#bg-ali-mountain,.HalfPageLeft img#bg-kenting,.HalfPageLeft img#bg-taroko-gorge{
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    object-position: 0 0;
     z-index: 100;
     display: inline-block;
+}
+
+.HalfPageLeft img#bg-jiufen{
+    top: -100;
 }
 
 .LocationContent {

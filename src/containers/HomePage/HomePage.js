@@ -16,9 +16,9 @@ const homePage = () => {
   return (
     <div className="Home">
       <div className="Banner">
-        <img id="map" src={Taiwan} alt="Taiwan" />
         <div className="HalfScreen">
-          <MapCursors/>
+          <img id="map" src={Taiwan} alt="Taiwan" />
+          <MapCursors className="mapcurosr-hp"/>
         </div>
         <div className="BannerTextContainer">
           <div className="CenterText">
