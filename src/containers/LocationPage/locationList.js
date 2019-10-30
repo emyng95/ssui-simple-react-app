@@ -55,7 +55,8 @@ export default [
 
         "According to Thao mythology, Thao hunters spotted a white deer in the mountains and chased it to the shore of Sun Moon Lake. They were so impressed by the lake that they decided to settle there.",
 
-        "As a visitor‭, ‬you can observe Thao customs and make donations at the Thao Performance Center‭ ‬in Ita Thao‭ (‬details below‭)‬‭, ‬my favorite village to stay at Sun Moon Lake‭. ‬!"
+        "As a visitor‭, ‬you can observe Thao customs and make donations at the Thao Performance Center‭ ‬in Ita Thao‭ (‬details below‭)‬‭, ‬my favorite village to stay at Sun Moon Lake‭. ‬!",
+        "Some info taken from - https://www.nickkembel.com/sun-moon-lake-taiwan/"
     ],
     fact1: [
       "The tower is the tallest and largest green building in the world."
@@ -74,7 +75,9 @@ export default [
     experience: [
         "Taiwan, Ali Mountain is in fact the general name of the eighteen hills including Zhu Hill and Tower Hill. Its highest peak is Tower Hill with the height of 2,663 meters (about 8,736 feet). Ali Mountain is world famous for its 'five rare sites' including the Sunrise, the Ali Mountain Forest Railway, the famous Alishan Sacred Tree, the Grand Sea of Clouds, and the Flamboyant Cherry Blossom. It is said that one who has not been there will never know its wonderful beauty.",
         "The sunrise is a must for everyone who comes here. Many have said to miss viewing the sunrise on Ali Mountain is like returning empty after entering the Golconda. The best place to view the sunrise is on the top of Zhu Hill. The place and time of the sunrise are different due to the changes of the four seasons.",
-        "If you plan to view the sunrise it is best to ask the local people the time of sunrise, so you don't miss this magnificent opportunity. When the sun is rising slowly from the peak, it sends out the golden rays for a short time which provides a spectacular scene."
+        "If you plan to view the sunrise it is best to ask the local people the time of sunrise, so you don't miss this magnificent opportunity. When the sun is rising slowly from the peak, it sends out the golden rays for a short time which provides a spectacular scene.",
+        "Some info taken from -https://www.travelchinaguide.com/attraction/taiwan/mt_ali.htm"
+
     ],
     fact1: [
       "The Ali Mountain Forest Railway is regarded as one of three mountain climbing railways."
@@ -84,7 +87,7 @@ export default [
     ],
     fact3: [
         "The forest sea on Ali Mountain creates a relaxed and pleasant environment for the people living in the city nearby."
-    ]
+    ],
   },
   {
     id: "kenting",
@@ -93,6 +96,7 @@ export default [
     experience: [
         "Kenting has become the most representative place for tropical beach in Taiwan. Located in the most southern part of Taiwan, Kenting is all beach and ocean. Not only having the first National Park in Taiwan, Kenting offers so many attractions, the role Kenting play in Taiwan tourism is significant. Along the coastline, as a part of Nanwan, Kenting Beach is the most beautiful beach in Taiwan. Right across from the Kenting National Park, facing the ocean and sitting in the front of Dajianshan, Kenting Beach was the first place developed back in 1877.",
         "Although the White Sand Bay is a famous beach, it is not easily accessible so not many tourists know how to get there. Swimming, snorkeling and scuba diving are allowed at this beach, but you need to watch out for jellyfish. If you prefer staying dry, you can take a leisure stroll along the beach. Or, if you’re feeling lazy, just rent a huge umbrella and a beach chair, and enjoy the view of the ocean. There are shower facilities and changing cabins on one side of the beach, and a campsite with a bar and a few small fast food restaurants on another side.",
+        "Some info taken from - https://www.travelking.com.tw/eng/tourguide/kenting/kenting-beach.html & https://www.alexisjetsets.com/beaches-kenting/"
     ],
     fact1: [
       "The tower is the tallest and largest green building in the world."
@@ -111,7 +115,8 @@ export default [
     experience: [
         "Taroko Gorge, Taiwan, sometimes called the Taiwanese Grand Canyon, is the country’s premier scenic attraction, along with Alishan and Sun Moon Lake. It tops my list of best places to visit in Taiwan if you want experience dramatic nature on a short, easy-to-plan trip from the capital.",
         "Taroko National Park covers an area of 92,000 hectares. It is located in Hualien County, Taichung City and Nantou County– and is home to unique geological and natural resources, including twenty seven peaks over 3000 meters (Baiyu, 100 Top Peaks in Taiwan) located in and around the Qilai and Nanhu Mountain ranges. The spectacular marble gorge of Taroko, the Qingshui Cliff rising high above the Pacific Ocean, the peaceful trail along the Shakadang River, and the cascading waterfalls of Baiyang trail are some of the treasures and delights of “earth and the heavens” that await visitors to the Park.",
-        "If you have the time to take route to east coast of Taiwan, this is a must visit attraction!"
+        "If you have the time to take route to east coast of Taiwan, this is a must visit attraction!",
+        "Some info taken from - https://www.nickkembel.com/taroko-gorge-taiwan/"
     ],
     fact1: [
       "The train is a scenic way to get from Taipei to Hualien and the Taroko Gorge area. "
